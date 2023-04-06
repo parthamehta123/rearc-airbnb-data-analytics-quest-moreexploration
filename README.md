@@ -97,6 +97,26 @@ I used the notebook explore_analysis_detailed_listingsfile.ipynb and made below 
 - Noticed that majority of lisitngs which are also highly reviewed listings are concentrated near the downtown and tourist regions of San Francisco. So, we can conclude that listing based on neighbourhood does affect price of the listing as well.
 - Noticed that the most common words used in listing names are "private", "cozy", "beautiful", "home", "room", "spacious", "studio", "view" etc.
 
+***Problem Statement:(From notebook Airbnb Data Exploration and Analysis For Recommendations.ipynb)***
+
+Simplifying the SF Airbnb Search Process: The goal is to develop a model that allows customers to find suitable Airbnb’s in the city of San Francisco based on pre-selected features such as bedrooms, neighbourhood, price and more. While the Airbnb website offers a few filters to search with, our model goes beyond filtering, exploring similarities across neighbourhoods. Customers also have the option to narrow their search based on how our model clusters Airbnb’s!
+
+***Project Context & Motivation:(From notebook Airbnb Data Exploration and Analysis For Recommendations.ipynb)***
+By developing a recommendation model that suggests Airbnb’s as per personal choices, we can help various types of customers select Airbnb’s from myriads of options available in San Francisco that be-fit their preferences in a more efficient manner.
+Such a recommendation tool and a user-interactive interface enables user-friendly service and attracts more customers to utilize it.
+
+***Note***
+I have also made a Streamlit application. You can refer the code in app.py file present in this repository.
+To run the application, you can perform the below steps:
+1. !rm ~/.streamlit/config.toml --> If you face a Toml config error, you should run this first, then reinstall streamlit using the below command 2nd or 3rd.
+2. !pip install -q streamlit
+3. !npm install localtunnel
+4. !streamlit run /content/drive/MyDrive/airbnb-data-analysis/app.py &>/content/logs.txt &
+5. !npx localtunnel --port 8501
+6. !pip install pyngrok
+7. !pip install streamlit
+8. !pip install chart_studio
+
 **Future work**
 - These findings can be used for a comparative analysis with other nearby cities like Los Angeles.
 - Sentiment analysis can be performed on the reviews.
