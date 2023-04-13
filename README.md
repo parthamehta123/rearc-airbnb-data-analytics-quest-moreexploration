@@ -129,3 +129,6 @@ Two of my Medium Blogs on this topic are here:
 
 - https://medium.com/@parthamehta10/this-is-how-i-estimate-price-for-airbnb-in-san-francisco-using-different-ml-algorithms-like-linear-5a1a8cc22ea7
 - https://medium.com/@parthamehta10/3-insights-into-airbnb-in-san-francisco-c2c6bd6cd91d
+
+***Tableau Workbook***
+Download them from this link: https://github.com/parthamehta123/rearc-airbnb-data-analytics-quest-moreexploration/blob/master/Airbnb%20San%20Francisco%20Neighborhood%20Analysis.twbx
